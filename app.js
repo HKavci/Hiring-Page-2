@@ -30,14 +30,14 @@ const fetchWaitingListData = async () => {
         img2Cell.appendChild(img2);
       } else {
         const b = document.createElement("b");
-        b.textContent = "3.5";
+        b.innerText = "3.5";
         img2Cell.appendChild(b);
       }
       row.appendChild(img2Cell);
 
       // third column
       const name1Cell = document.createElement("td");
-      name1Cell.textContent = item.name1;
+      name1Cell.innerText = item.name1;
       if (index === 4 || index === 5 || index === 12 || index === 13) {
         name1Cell.classList.add("bold-name");
       }
@@ -45,7 +45,7 @@ const fetchWaitingListData = async () => {
 
       // fourth column
       const name2Cell = document.createElement("td");
-      name2Cell.textContent = item.name2;
+      name2Cell.innerText = item.name2;
       if (index === 4 || index === 5 || index === 12 || index === 13) {
         name2Cell.classList.add("bold-name");
       }
@@ -57,9 +57,9 @@ const fetchWaitingListData = async () => {
       // fifth column
       const timeCell = document.createElement("td");
       const time = document.createElement("b");
-      time.textContent = item.time;
+      time.innerText = item.time;
       const mins = document.createElement("span");
-      mins.textContent = " mins";
+      mins.innerText = " mins";
       timeCell.appendChild(time);
       timeCell.appendChild(mins);
       row.appendChild(timeCell);
