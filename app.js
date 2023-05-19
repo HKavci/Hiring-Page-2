@@ -1,7 +1,9 @@
 // fetching the waiting list mockdata from db.json
-fetch("db.json")
-  .then((response) => response.json())
-  .then((data) => {
+const fetchWaitingListData = async () => {
+  try {
+    const response = await fetch("db.json");
+    const data = await response.json();
+
     const table = document.querySelector(".players-table");
 
     data?.data?.map((item, index) => {
@@ -37,18 +39,18 @@ fetch("db.json")
       const name1Cell = document.createElement("td");
       name1Cell.textContent = item.name1;
       if (index === 4 || index === 5 || index === 12 || index === 13) {
-        name1Cell.classList.add('bold-name');
+        name1Cell.classList.add("bold-name");
       }
       row.appendChild(name1Cell);
-      
+
       // fourth column
       const name2Cell = document.createElement("td");
       name2Cell.textContent = item.name2;
       if (index === 4 || index === 5 || index === 12 || index === 13) {
-        name2Cell.classList.add('bold-name');
+        name2Cell.classList.add("bold-name");
       }
       if (index === 5 || index === 13) {
-        name2Cell.classList.add('my-name');
+        name2Cell.classList.add("my-name");
       }
       row.appendChild(name2Cell);
 
@@ -86,10 +88,12 @@ fetch("db.json")
         img3Cell.style.display = "none";
       }
     });
-  })
-  .catch((error) => {
+  } catch (error) {
     console.log(error);
-  });
+  }
+};
+
+fetchWaitingListData();
 
 // created for restarting the page by clicking the rotate icon
 const rotateIcon = document.getElementById("rotate-icon");
@@ -132,4 +136,3 @@ expandIcon.addEventListener("click", () => {
     otherInfo.innerText = "Show other info";
   }
 });
-
