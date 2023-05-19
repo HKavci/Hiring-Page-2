@@ -1,0 +1,143 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Lynn Tanner",
+      "name2": "Sledge Hammer",
+      "img3": "./assets/img/trash.svg",
+      "time": "19"
+    },
+    {
+      "id": 2,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Roderick Flich",
+      "name2": "Willie Tanner",
+      "img3": "./assets/img/trash.svg",
+      "time": "19"
+    },
+    {
+      "id": 3,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Angus MacGyver",
+      "name2": "Michael Knight",
+      "img3": "./assets/img/trash.svg",
+      "time": "19"
+    },
+    {
+      "id": 4,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Hannibal Smith",
+      "name2": "Fred Decker",
+      "img3": "./assets/img/trash.svg",
+      "time": "19"
+    },
+    {
+      "id": 5,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Thomas Magnum",
+      "name2": "Tony Danza",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "21"
+    },
+    {
+      "id": 6,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Roderick Decker",
+      "name2": "HAKAN KAVCI",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "21"
+    },
+    {
+      "id": 7,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Cristian Tanner",
+      "name2": "Capt. Trunk",
+      "img3": "./assets/img/trash.svg",
+      "time": "26"
+    },
+    {
+      "id": 8,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "B.A. Baracus",
+      "name2": "Dori Doreau",
+      "img3": "./assets/img/trash.svg",
+      "time": "26"
+    },
+
+    {
+      "id": 9,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Lynn Tanner",
+      "name2": "Sledge Hammer",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "19"
+    },
+    {
+      "id": 10,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Roderick Flich",
+      "name2": "Willie Tanner",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "19"
+    },
+    {
+      "id": 11,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Angus MacGyver",
+      "name2": "Michael Knight",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "19"
+    },
+    {
+      "id": 12,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Hannibal Smith",
+      "name2": "Fred Decker",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "19"
+    },
+    {
+      "id": 13,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Thomas Magnum",
+      "name2": "Tony Danza",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "21"
+    },
+    {
+      "id": 14,
+      "img1": "./assets/img/rackets.svg",
+      "name1": "Roderick Decker",
+      "name2": "HAKAN KAVCI",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "21"
+    },
+    {
+      "id": 15,
+      "img1": "./assets/img/racket.svg",
+      "name1": "Cristian Tanner",
+      "name2": "Capt. Trunk",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "26"
+    },
+    {
+      "id": 16,
+      "img1": "./assets/img/racket.svg",
+      "name1": "B.A. Baracus",
+      "name2": "Dori Doreau",
+      "img3": "./assets/img/trash.svg",
+      "img2": "./assets/img/hand-shake.svg",
+      "time": "26"
+    }
+  ]
+}
