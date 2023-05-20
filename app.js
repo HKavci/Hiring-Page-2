@@ -136,3 +136,22 @@ expandIcon.addEventListener("click", () => {
     otherInfo.innerText = "Show other info";
   }
 });
+
+// When the button is clicked, the modal opens for 2.5 seconds.
+const modal2 = document.querySelector(".second-modal");
+const button = document.querySelector(".btn");
+const largeButton = document.querySelector(".large-btn");
+
+button.addEventListener("click", () => {
+  modal2.style.display = "block";
+  setTimeout(() => {
+    modal2.style.display = "none";
+  }, 2500);
+});
+
+largeButton.addEventListener("click", () => {
+  modal2.style.display = "block";
+  setTimeout(() => {
+    modal2.style.display = "none";
+  }, 2500);
+});
