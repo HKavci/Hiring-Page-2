@@ -29,16 +29,16 @@
         <div class="heading">
           <p>
             <span>Waiting List</span>
-            <img src="./assets/img/query-icon.svg" alt="icon" id="modal-icon" />
+            <img data-test="query-icon" src="./assets/img/query-icon.svg" alt="icon" id="modal-icon" />
           </p>
-          <img src="./assets/img/rotate-icon.svg" alt="icon" id="rotate-icon" />
+          <img data-test="rotate-icon" src="./assets/img/rotate-icon.svg" alt="icon" id="rotate-icon" />
         </div>
 
         <!-----Announcement Modal------>
         <div id="announcement-modal">
           <article>
             <div>
-              <h2>Court opening hours will change!</h2>
+              <h2 data-test="announcement-headers">Court opening hours will change!</h2>
             </div>
             <div class="date">
               <p><b>11.Dec.22</b></p>
@@ -68,7 +68,7 @@
 
               <!-----This part will be dynamically filled by app.js----->
 
-              <img src="./assets/img/arrow.svg" id="arrow-icon" />
+              <img data-test="expand-icon" src="./assets/img/arrow.svg" id="arrow-icon" />
               <p class="other-info">Show other info</p>
             </table>
           </div>
@@ -97,7 +97,7 @@
             </div>
           </div>
         </div>
-        <button class="btn">Add me</button>
+        <button data-test="button" class="btn">Add me</button>
 
         <!---------- The Second Modal (by clicking the button) -------->
         <div class="second-modal">
@@ -152,7 +152,7 @@
               <img src="./assets/img/courts-4.svg" alt="court" />
             </div>
           </div>
-          <button class="large-btn">Add to the waiting list</button>
+          <button data-test="large-button" class="large-btn">Add to the waiting list</button>
         </div>
       </section>
     </main>
