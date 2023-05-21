@@ -35,7 +35,7 @@ header {
   justify-content: space-around;
   height: 63px;
   background: var(--primary-color);
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 0 0 15px 15px;
 }
 header .logo {
   width: 40.64px;

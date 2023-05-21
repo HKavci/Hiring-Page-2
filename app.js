@@ -2,11 +2,11 @@
 const fetchWaitingListData = async () => {
   try {
     const response = await fetch("db.json");
-    const data = await response.json();
+    const { data } = await response.json();
 
     const table = document.querySelector(".players-table");
 
-    data?.data?.map((item, index) => {
+    data?.map((item, index) => {
       const row = document.createElement("tr");
       let rowCount = index + 1;
 
